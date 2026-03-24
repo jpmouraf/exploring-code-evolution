@@ -81,9 +81,21 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: https://github.com/nodejs/node
+2. Gráfico selecionado:
+<img width="895" height="455" alt="image" src="https://github.com/user-attachments/assets/75287eff-2a19-4200-8ce7-8277c37b0c0a" />
+
+3. Explicação:
+   
+O gráfico de "Variable declarations” mostra a quantidade no uso de const, var e let ao longo dos anos, e revela uma mudança na estratégia de programação do projeto.
+
+Observando a evolução, o uso de const cresce de forma consistente de 2021 até 2026. Ele sai de cerca de 64 mil declarações e chega próximo de 98 mil, indicando que os desenvolvedores estão preferindo variáveis imutáveis sempre que possível. Isso é considerado uma boa prática, pois reduz efeitos colaterais e torna o código mais previsível.
+
+Já o let também apresenta crescimento contínuo, embora mais moderado. Ele vai aumentando a cada ano, o que mostra uma permanência na estratégia da utilização dessa variavél, aumentando constantemente junto com as linhas de código, mas pode também ser o resultado de uma adoção gradual para casos onde a mutabilidade é necessária, substituindo o uso antigo do var.
+
+Por outro lado, o var tem um comportamento interessante, visto que ele começa muito alto, sofre uma queda em 2022, tem um pico em 2023 e depois entra em uma tendência de queda até 2026. Esse padrão sugere que, embora ainda seja utilizado, o var está sendo progressivamente abandonado, mesmo sem ter encontrado uma lógica para o aumento significativo em 2023.
+
+Essa transição é totalmente coerente com as boas práticas modernas de JavaScript, que recomendam evitar var por problemas de escopo e preferir const e let. O gráfico, portanto, indica uma evolução positiva na qualidade do código, o que contribui para um código mais seguro, legível e fácil de manter.
 
 
 
